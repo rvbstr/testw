@@ -42,4 +42,10 @@
     width: 100%;
     background-color: rgb(228, 228, 228);
     position: relative;
+    top:0px;
+    display: block; 
 }
+/*
+#cur {
+    *display:none;
+}*/
