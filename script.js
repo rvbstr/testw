@@ -1,3 +1,9 @@
+function startWin(){
+    var x = document.getElementById("cur");
+    x.style.display = "none";
+}
+
+
 function pageGoCur(){
     var x = document.getElementById("home");
     x.style.display = "none";

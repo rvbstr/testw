@@ -1,11 +1,30 @@
 body {
     font-family: 'DotGothic16', sans-serif;
+    margin:0;
 }
 
 button{
     font-family: 'DotGothic16', sans-serif;
 }
 
+
+.wrapper {
+    /*position: absolute;
+    width: 100%;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;*/
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width:100%;
+    border: 3px solid green; 
+      
+}
 
 .content {
     height: 65vh;
@@ -18,10 +37,7 @@ button{
     align-items: center;
     flex-direction: column;
     flex: 0 1 auto;
-    position: absolute;
-    left: 0;
-    right: 0;
-    top: 0;
+    position: relative;
     bottom: 0;
     margin: auto;
     width: 296px; /* Need a specific value to work */
@@ -60,13 +76,17 @@ button{
     height:100%;
 }
 
+/*
 #cur {
     display:none;
 }
-
+*/
 .footer {
-    position: sticky;
-    bottom:0px;
+    position: fixed;
+    bottom: 0;
+    margin-bottom:0px;
+    min-height: 20%;
+    background-color: aquamarine;
 }
 
 
