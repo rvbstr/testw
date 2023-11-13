@@ -4,7 +4,7 @@
     color: rgb(0, 0, 0);
     margin: auto;
     display: flex;
-    justify-content: center;
+    /*justify-content: center;*/
     align-items: center;
     flex-direction: column;
     flex: 0 1 auto;
@@ -16,11 +16,19 @@
     margin: auto;
     width: 296px; /* Need a specific value to work */
     padding: 20px;
+
+}
+
+.header {
+    width:100%;
+    position: fixed;
+    top: 0px; 
+    display: flex;
 }
 
 .card {
-
     max-width: 296px;
     width: 100%;
     background-color: grey;
+    position: relative;
 }
