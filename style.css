@@ -16,19 +16,30 @@
     margin: auto;
     width: 296px; /* Need a specific value to work */
     padding: 20px;
+    overflow-y: auto;
     /*testpush*/
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
+
+.content::-webkit-scrollbar {
+    display: none;
 }
 
 .header {
-    width:100%;
-    position: fixed;
-    top: 0px; 
-    display: flex;
+    position: sticky;
+    top: -70px;
+    height: 100%;
+    width: 100%;
+    pointer-events: none;
+    z-index: 5;
+    margin: auto;
+    text-align: center;
 }
 
 .card {
     max-width: 296px;
     width: 100%;
-    background-color: grey;
+    background-color: rgb(228, 228, 228);
     position: relative;
 }
