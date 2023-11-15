@@ -1,12 +1,16 @@
 <html>
     <head>
         <link rel="stylesheet" href="style.css">
+
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=DotGothic16&display=swap" rel="stylesheet">
+
+        <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap" rel="stylesheet">
+
         <script src="script.js"></script>
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
-      </head>
+    </head>
 
     <body onload="startWin()">
         <div class="wrapper">
@@ -29,8 +33,13 @@
             </div>
 
             <div class="footer">
-                <p>hello footer</p>
-                <button id="gohome" onclick="pageGoHome()">homebutton</button>
+                <div class="footer-item">
+                    <button id="gohome" onclick="pageGoHome()">homebutton</button>
+                </div>
+                <div class="footer-item" style="flex-grow: 2;">
+                    contact
+                </div>
+                
             </div>
 
         </div>

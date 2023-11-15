@@ -1,10 +1,11 @@
 body {
-    font-family: 'DotGothic16', sans-serif;
+    font-family: 'Roboto Mono', monospace;
     margin:0;
 }
 
 button{
-    font-family: 'DotGothic16', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+    width: fit-content;
 }
 
 
@@ -83,12 +84,34 @@ button{
 */
 .footer {
     position: sticky;
+    width: 100%;
     margin-top: auto;
     bottom: 0;
     margin-bottom:0px;
-    background-color: aquamarine;
+    background-color: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 20px;
 }
 
+.footer-item {
+    background-color: rgb(255, 255, 255);
+    border-color: black;
+    border: 1px;
+    border-radius: 20px;
+    border-style: solid;
+    padding: 5px;
+}
+
+.footer-item button {
+    background-color: rgb(255, 58, 58);
+    border-color: black;
+    border: 1px;
+    border-radius: 20px;
+    border-style: solid;
+    padding: 5px;
+}
 
 @font-face {
     font-family: "Druzhok";
