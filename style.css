@@ -120,6 +120,7 @@ a:hover {
 
 .footer-item {
     background-color: rgb(255, 255, 255);
+    color:black;
     border-color: black;
     border: 1px;
     border-radius: 20px;
