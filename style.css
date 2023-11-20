@@ -161,7 +161,7 @@ a:hover {
     bottom: 0;
     margin: auto;*/
 
-    display: block;
+    display: absolute;
     height: 100dvh;
     width:100dvw;
     /*border: 3px solid rgb(55, 0, 255);*/ 
